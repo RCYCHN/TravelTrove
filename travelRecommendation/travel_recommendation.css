@@ -130,3 +130,29 @@ input[type="text"] {
     background-color: #ffde59;
     color: #003275;
 }
+
+#socialmediaicons {
+    margin: 0;
+    margin-top: 70px;
+    position: absolute;
+    margin-left: 10px;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#Xicon, #Insta {
+    width: 25px;
+    height: auto;
+    fill: #ffde59;
+    margin: 0;
+    margin-bottom: 50px;
+}
+
+#Fbook {
+    height: 25px;
+    width: auto;
+    fill: #ffde59;
+    margin: 0;
+    margin-bottom: 50px;
+}
