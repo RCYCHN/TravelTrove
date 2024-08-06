@@ -311,20 +311,65 @@ input[type="text"] {
     position: relative;
     width: 49vw;
     height: 100vh;
-    bottom: 0;
     margin-top: 100px;
 }
 
-#contactdiv {
+#contactdiv { 
     width: 500px;
-    height: 300px;
+    height: 450px;
     background-color: rgba(0,50,117,0.7);
     border-radius: 2px;
+    margin: 0;
+    margin-left: 100px;
+    position: absolute;
+    top: 37.5%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 
-.form {
-    font-family: GaretBook;
+#contactform {
+    margin: 25px;
+}
+
+.label {
+    font-family: GaretHeavy;
     font-size: 16px;
+    margin: 0;
+    color: white;
+}
+
+#name, #email, #message {
+    font-family: GaretBook;
+    font-size: 12px;
+    width: 445px;
+    margin-bottom: 25px;
+    border: 1px solid #a6a6a6;
+    border-radius: 2px;
+    background-color: rgba(0,50,117,0.0);
+    color: #a6a6a6;
+}
+
+#name, #email {
+    height: 25px;
+}
+
+#name {
+    margin-top: -0.5px;
+}
+
+#message {
     margin-bottom: 5px;
-    margin-top: 5px;
+    resize: none;
+}
+
+#submit {
+    width: 450px;
+    height: 25px;
+    font-family: garetBook;
+    font-size: 12px;
+    background-color: #ffde59;
+    color: #003275;
+    border: none;
+    border-radius: 2px;
+    margin: 0;
 }
