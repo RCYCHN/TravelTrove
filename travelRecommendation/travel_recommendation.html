@@ -7,7 +7,7 @@
         <meta charset="utf-8">
     </head>
     <body>
-        <nav id="topnavbar">
+        <nav id="topnavbar" class="topnavbar">
             <div class="nav_logo">
             <img src="/travelRecommendation/Assets/TravelTroveLogo.png">
             </div>
@@ -15,20 +15,21 @@
                 <a class="topmenu" href="#home">Home</a>
                 <a class="topmenu" href="#about">About Us</a>
                 <a class="topmenu" href="#contact">Contact Us</a>
-                <div class="search">
-                    <input type="text" placeholder="Enter a destination or keyword..." name="search">
+                <form class="search">
+                    <input id="search-bar" type="text" placeholder="Enter a destination or keyword...">
                     <button id="search" type="submit" value="search">Search</button>
                     <button id="clear" type="submit" value="clear">Clear</button>
-                </div>
+                </form>
             </div>
         </nav>
-        <section id="introduction" class="container">
+        <section id="introduction" class="introduction">
             <div id="intro-text">
                 <p id="intro-slogan">FIND YOUR <br>MEMORIES</p>
                 <p id="intro-para">It encourages exploration of unfamiliar territories, <br>
                     embracing diverse cultures and landscapes, while <br>
                     pursuing the desired destination that captivates <br>
                     the heart and ignites a sense of wonder.</p>
+                <button id="book" type="submit" value="book">Book Now</button>
             </div>
         </section>
     </body>

@@ -10,17 +10,18 @@
 
 body {
     margin: 0;
-    background-image: url(/travelRecommendation/Assets/Worlds-Greatest-Places-Barcelona-Spain.jpg);
+    background-image: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.90) 100%), url(/travelRecommendation/Assets/Worlds-Greatest-Places-Barcelona-Spain.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
 
 /* Nav Bar */
-#topnavbar {
+.topnavbar {
     width: 100%;
     height: 100px;
     position: fixed;
+    top: 0;
 }
 
 .nav_logo img {
@@ -48,7 +49,6 @@ body {
 .topmenu {
     font-family: GaretBook;
     font-size: 16px;
-    letter-spacing: -1px;
     color: #003275;
     padding: 20px;
     text-decoration: none;
@@ -89,9 +89,11 @@ input[type="text"] {
 
 /* home page (intro) */
 
-#introduction {
+.introduction {
     position: relative;
+    width: 1000px;
     height: 100vh;
+    bottom: 0;
 }
 
 #intro-text {
@@ -105,13 +107,26 @@ input[type="text"] {
 
 #intro-slogan {
     font-family: GaretHeavy;
-    font-size: 64px;
+    font-size: 72px;
     line-height: 1;
     color: #ffde59;
+    margin-bottom: -10px;
 }
 
 #intro-para {
     font-family: GaretBook;
     font-size: 16px;
-    color: #a6a6a6;
+    color: white;
+    margin-left: 2px;
+}
+
+#book {
+    border-radius: 1px;
+    border: none;
+    width: 85px;
+    height: 25px;
+    font-family: GaretBook;
+    font-size: 12px;
+    background-color: #ffde59;
+    color: #003275;
 }
