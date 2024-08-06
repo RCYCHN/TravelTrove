@@ -94,13 +94,24 @@ input[type="text"] {
     height: 100vh;
 }
 
-#intro-slogan {
-    font-family: GaretHeavy;
-    font-size: 64px;
+#intro-text {
     margin: 0;
     margin-left: 100px;
     position: absolute;
     top: 50%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
+}
+
+#intro-slogan {
+    font-family: GaretHeavy;
+    font-size: 64px;
+    line-height: 1;
+    color: #ffde59;
+}
+
+#intro-para {
+    font-family: GaretBook;
+    font-size: 16px;
+    color: #a6a6a6;
 }
