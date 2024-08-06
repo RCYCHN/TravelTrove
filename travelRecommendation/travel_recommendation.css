@@ -14,6 +14,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    position: relative;
 }
 
 /* Nav Bar */
@@ -44,6 +45,14 @@ body {
     line-height: 100px;
     float: right;
     padding-right: 10px;
+}
+
+.topmenu:hover {
+    font-family: GaretHeavy;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 3px;
+    text-decoration-color: #ffde59;
 }
 
 .topmenu {
@@ -92,15 +101,16 @@ input[type="text"] {
 .introduction {
     position: relative;
     width: 1000px;
-    height: 100vh;
+    height: 90vh;
     bottom: 0;
+    margin-top: 100px;
 }
 
 #intro-text {
     margin: 0;
     margin-left: 100px;
     position: absolute;
-    top: 50%;
+    top: 40%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
 }
@@ -134,7 +144,7 @@ input[type="text"] {
 #socialmediaicons {
     margin: 0;
     margin-top: 60px;
-    position: absolute;
+    position: fixed;
     margin-left: 10px;
     top: 50%;
     -ms-transform: translateY(-50%);
@@ -168,13 +178,14 @@ input[type="text"] {
     width: 49vw;
     height: 100vh;
     bottom: 0;
+    margin-top: 100px;
 }
 
 #aboutus-text {
     margin: 0;
     margin-left: 100px;
     position: absolute;
-    top: 50%;
+    top: 37.5%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
 }
@@ -201,13 +212,14 @@ input[type="text"] {
     width: 49vw;
     height: 100vh;
     bottom: 0;
+    margin-top: 100px;
 }
 
 #ourteamdiv {
     margin: 0;
     margin-left: 100px;
     position: absolute;
-    top: 50%;
+    top: 37.5%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
 }
@@ -255,4 +267,64 @@ input[type="text"] {
     fill: #a6a6a6;
     height: 100px;
     width: auto;
+}
+
+/* Contact Us Page */
+
+#ContactUsPage {
+    display: inline-flex;
+}
+
+.introductionCU {
+    position: relative;
+    width: 49vw;
+    height: 100vh;
+    bottom: 0;
+    margin-top: 100px;
+}
+
+#contactus-text {
+    margin: 0;
+    margin-left: 100px;
+    position: absolute;
+    top: 37.5%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#contactus-title {
+    font-family: GaretHeavy;
+    font-size: 72px;
+    line-height: 1;
+    color: #ffde59;
+    margin-bottom: -10px;
+}
+
+#contactus-para {
+    font-family: GaretBook;
+    font-size: 16px;
+    color: white;
+    margin-left: 2px;
+}
+
+.contact {
+    position: relative;
+    width: 49vw;
+    height: 100vh;
+    bottom: 0;
+    margin-top: 100px;
+}
+
+#contactdiv {
+    width: 500px;
+    height: 300px;
+    background-color: rgba(0,50,117,0.7);
+    border-radius: 2px;
+}
+
+.form {
+    font-family: GaretBook;
+    font-size: 16px;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
