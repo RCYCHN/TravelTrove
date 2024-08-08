@@ -1,0 +1,422 @@
+@font-face {
+    font-family: GaretBook;
+    src: url(Garet-Book.otf);
+}
+
+@font-face {
+    font-family: GaretHeavy;
+    src: url(Garet-Heavy.otf);
+}
+
+body {
+    margin: 0;
+    background-image: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.90) 90%), url(Worlds-Greatest-Places-Barcelona-Spain.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+
+/* Nav Bar */
+.topnavbar {
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    background-image: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.90) 90%), url(Worlds-Greatest-Places-Barcelona-Spain.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.nav_logo img {
+    width: auto; 
+    height: 80px;
+    float: left;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.search {
+    height: 75px;
+    line-height: 100px;
+    float: right;
+    padding-left: 20px;
+}
+
+.nav_links {
+    height: 100px;
+    line-height: 100px;
+    float: right;
+    padding-right: 10px;
+}
+
+.topmenu:hover {
+    font-family: GaretHeavy;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 3px;
+    text-decoration-color: #ffde59;
+}
+
+.topmenu {
+    font-family: GaretBook;
+    font-size: 16px;
+    color: #003275;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.search {
+    position: relative;
+    display: flex;
+    min-width: 150px;
+}
+
+#search, #clear {
+    font-family: GaretBook;
+    font-size: 12px;
+    position: absolute;
+    border: none;
+    width: 75px;
+    height: 20px;
+    top: 3.5px;
+    right: 82.5px;
+    color: #003275;
+    background-color: #ffde59;
+    margin-top: 37.5px;
+}
+
+#clear {
+    right: 3.5px;
+}
+
+input[type="text"] {
+    font-family: GaretBook;
+    font-size: 12px;
+    width: 400px;
+    height: 25px;
+    border: none;
+    margin-top: 37.5px;
+}
+
+/* home page (intro) */
+
+/*#homepage {
+    display: inline-flex;
+}*/
+
+.introduction {
+    position: fixed;
+    width: 49vw;
+    height: 90vh;
+    bottom: 0;
+    margin-top: 100px;
+}
+
+#intro-text {
+    margin: 0;
+    margin-left: 100px;
+    position: absolute;
+    top: 44%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#intro-slogan {
+    font-family: GaretHeavy;
+    font-size: 72px;
+    line-height: 1;
+    color: #ffde59;
+    margin-bottom: -10px;
+}
+
+#intro-para {
+    font-family: GaretBook;
+    font-size: 16px;
+    color: white;
+    margin-left: 2px;
+}
+
+#book {
+    border-radius: 1px;
+    border: none;
+    width: 85px;
+    height: 25px;
+    font-family: GaretBook;
+    font-size: 12px;
+    background-color: #ffde59;
+    color: #003275;
+}
+
+.searchResults {
+    width: 450px;
+    height: auto;
+    bottom: 0;
+    margin-top: 100px;
+    margin-right: 10px;
+    border-radius: 2px;
+    float: right;
+}
+
+.item-result {
+    background-color: #ffde59;
+    margin-bottom: 10px;
+    border-radius: 2px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding-bottom: 5px;
+}
+
+.item-result img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 2px;
+}
+
+.item-result h3 {
+    font-family: GaretHeavy;
+    font-size: 18px;
+    margin: 10px;
+    color:#003275;
+}
+
+.item-result p {
+    font-family: GaretBook;
+    font-size: 12px;
+    margin: 10px;
+    margin-bottom: 10px;
+    color:#a6a6a6;
+}
+
+#socialmediaicons {
+    margin: 0;
+    margin-top: 60px;
+    position: fixed;
+    margin-left: 10px;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#Xicon, #Insta {
+    width: 25px;
+    height: auto;
+    fill: #ffde59;
+    margin: 0;
+    margin-bottom: 50px;
+}
+
+#Fbook {
+    height: 25px;
+    width: auto;
+    fill: #ffde59;
+    margin: 0;
+    margin-bottom: 50px;
+}
+
+/* About Us Page */
+
+#AboutUsPage {
+    display: inline-flex;
+}
+
+.introductionAU {
+    position: relative;
+    width: 49vw;
+    height: 100vh;
+    bottom: 0;
+    margin-top: 100px;
+}
+
+#aboutus-text {
+    margin: 0;
+    margin-left: 100px;
+    position: absolute;
+    top: 37.5%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#aboutus-title {
+    font-family: GaretHeavy;
+    font-size: 72px;
+    line-height: 1;
+    color: #ffde59;
+    margin-bottom: -10px;
+}
+
+#aboutus-para {
+    font-family: GaretBook;
+    font-size: 16px;
+    color: white;
+    margin-left: 2px;
+}
+
+/* Our Team */
+
+.ourteam {
+    position: relative;
+    width: 49vw;
+    height: 100vh;
+    bottom: 0;
+    margin-top: 100px;
+}
+
+#ourteamdiv {
+    margin: 0;
+    margin-left: 100px;
+    position: absolute;
+    top: 37.5%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#ourteam-title {
+    font-family: GaretHeavy;
+    font-size: 72px;
+    line-height: 1;
+    color: #ffde59;
+    margin-bottom: -10px;
+}
+
+#profiles {
+    display: inline-flex;
+}
+
+.profile {
+    font-family: GaretBook;
+    font-size: 16px;
+    width: 150px;
+    height: 200px;
+    border-radius: 2px;
+    background-color: rgba(0,50,117,0.7);
+    margin-top: 25px;
+    margin-right: 10px;
+}
+
+.name {
+    font-family: GaretHeavy;
+    font-size: 16px;
+    margin: 10px;
+    color: white;
+}
+
+.prof {
+    font-size: 12px;
+    margin: 10px;
+    color: white;
+}
+
+.profimg {
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+    fill: #a6a6a6;
+    height: 100px;
+    width: auto;
+}
+
+/* Contact Us Page */
+
+#ContactUsPage {
+    display: inline-flex;
+}
+
+.introductionCU {
+    position: relative;
+    width: 49vw;
+    height: 100vh;
+    bottom: 0;
+    margin-top: 100px;
+}
+
+#contactus-text {
+    margin: 0;
+    margin-left: 100px;
+    position: absolute;
+    top: 37.5%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#contactus-title {
+    font-family: GaretHeavy;
+    font-size: 72px;
+    line-height: 1;
+    color: #ffde59;
+    margin-bottom: -10px;
+}
+
+#contactus-para {
+    font-family: GaretBook;
+    font-size: 16px;
+    color: white;
+    margin-left: 2px;
+}
+
+.contact {
+    position: relative;
+    width: 49vw;
+    height: 100vh;
+    margin-top: 100px;
+}
+
+#contactdiv { 
+    width: 500px;
+    height: 450px;
+    background-color: rgba(0,50,117,0.7);
+    border-radius: 2px;
+    margin: 0;
+    margin-left: 100px;
+    position: absolute;
+    top: 37.5%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#contactform {
+    margin: 25px;
+}
+
+.label {
+    font-family: GaretHeavy;
+    font-size: 16px;
+    margin: 0;
+    color: white;
+}
+
+#name, #email, #message {
+    font-family: GaretBook;
+    font-size: 12px;
+    width: 445px;
+    margin-bottom: 25px;
+    border: 1px solid #a6a6a6;
+    border-radius: 2px;
+    background-color: rgba(0,50,117,0.0);
+    color: #a6a6a6;
+}
+
+#name, #email {
+    height: 25px;
+}
+
+#name {
+    margin-top: -0.5px;
+}
+
+#message {
+    margin-bottom: 5px;
+    resize: none;
+}
+
+#submit {
+    width: 450px;
+    height: 25px;
+    font-family: garetBook;
+    font-size: 12px;
+    background-color: #ffde59;
+    color: #003275;
+    border: none;
+    border-radius: 2px;
+    margin: 0;
+}
