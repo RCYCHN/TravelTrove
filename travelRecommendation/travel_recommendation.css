@@ -23,6 +23,10 @@ body {
     height: 100px;
     position: fixed;
     top: 0;
+    background-image: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.90) 90%), url(/travelRecommendation/Assets/Worlds-Greatest-Places-Barcelona-Spain.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .nav_logo img {
@@ -98,9 +102,13 @@ input[type="text"] {
 
 /* home page (intro) */
 
+/*#homepage {
+    display: inline-flex;
+}*/
+
 .introduction {
-    position: relative;
-    width: 1000px;
+    position: fixed;
+    width: 49vw;
     height: 90vh;
     bottom: 0;
     margin-top: 100px;
@@ -110,7 +118,7 @@ input[type="text"] {
     margin: 0;
     margin-left: 100px;
     position: absolute;
-    top: 40%;
+    top: 44%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
 }
@@ -139,6 +147,45 @@ input[type="text"] {
     font-size: 12px;
     background-color: #ffde59;
     color: #003275;
+}
+
+.searchResults {
+    width: 450px;
+    height: auto;
+    bottom: 0;
+    margin-top: 100px;
+    margin-right: 10px;
+    border-radius: 2px;
+    float: right;
+}
+
+.item-result {
+    background-color: #ffde59;
+    margin-bottom: 10px;
+    border-radius: 2px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding-bottom: 5px;
+}
+
+.item-result img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 2px;
+}
+
+.item-result h3 {
+    font-family: GaretHeavy;
+    font-size: 18px;
+    margin: 10px;
+    color:#003275;
+}
+
+.item-result p {
+    font-family: GaretBook;
+    font-size: 12px;
+    margin: 10px;
+    margin-bottom: 10px;
+    color:#a6a6a6;
 }
 
 #socialmediaicons {
